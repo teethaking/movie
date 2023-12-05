@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+   text-align: center ;
+}
+
+#search-input{
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+#search-result{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.movie-item{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.movie-item-img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
